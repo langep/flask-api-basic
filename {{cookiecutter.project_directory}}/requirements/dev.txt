@@ -1,0 +1,16 @@
+# Documentation
+Sphinx==1.6.5
+
+# Lint and code style
+flake8==3.5.0
+flake8-blind-except==0.1.1
+flake8-docstrings==1.1.0
+flake8-isort==2.2.2
+flake8-quotes==0.12.0
+isort==4.2.15
+pep8-naming==0.4.1
+
+# Testing and coverage
+coverage=4.5.1
+pytest==3.2.1
+WebTest==2.0.29

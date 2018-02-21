@@ -1,0 +1,8 @@
+{
+  "project_directory": "my-flask-api-directory",
+  "project_name": "My Flask API",
+  "project_short_description": "A flasky API",
+  "main_package_name": "myflaskapi",
+  "author": "Patrick Lange",
+  "version": "0.1.0"
+}

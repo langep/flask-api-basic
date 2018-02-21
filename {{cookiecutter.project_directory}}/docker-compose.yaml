@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  {{cookiecutter.main_package_name}}:
+    container_name: {{cookiecutter.main_package_name}}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+    ports:
+      - 5000:5000
+    environment:
+      - APP_CONFIG={{ cookiecutter.main_package_name }}.config.DevelopmentConfig
+      - FLASK_APP=/usr/src/app/autoapp.py
+      - FLASK_DEBUG=1
