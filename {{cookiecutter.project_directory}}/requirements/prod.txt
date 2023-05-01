@@ -1,2 +1,2 @@
 # Flask and plugins
-flask==0.12.2
+flask==2.3.2
